@@ -1,0 +1,15 @@
+#Sempre que quiser usar este programa, deverá modificar os valores da variável k:
+for k in range (1):
+    print('Insira 10 números')
+    x1 = eval(input('Insira o primeiro número: '))
+    x2 = eval(input('Insira o segundo número: '))
+    x3 = eval(input('Insira o terceiro número: '))
+    x4 = eval(input('Insira o quarto número: '))
+    x5 = eval(input('Insira o quinto número: '))
+    x6 = eval(input('Insira o sexto número: '))
+    x7 = eval(input('Insira o sétimo número: '))
+    x8 = eval(input('Insira o oitavo número: '))
+    x9 = eval(input('Insira o nono número: '))
+    x10 = eval(input('Insira o último número: '))
+    media = ((x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10) / 10)
+print('A média é {}'.format(media))
